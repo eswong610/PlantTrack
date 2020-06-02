@@ -1,0 +1,31 @@
+
+.logoContainer{
+    display:flex;
+
+}
+.logo{
+    height:100%;
+    margin-top:6%
+}
+.headerContainer{
+    display:flex;
+    justify-content: space-between;
+    max-height: 5rem;
+}
+
+.headerLinks{
+    display: flex;
+    justify-content: flex-end;
+    margin:3% 5%;
+}
+
+.linktext{
+    margin: 5%;
+    text-decoration: none;
+    color: rgb(0, 151, 0);
+}
+
+.linktext:hover{
+    text-decoration: none;
+    color: black;
+}
