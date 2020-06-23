@@ -1,0 +1,35 @@
+.bigContainer{
+    background: rgb(212, 212, 255);
+    border-radius: 5px;
+    margin:5px;
+    padding:3%;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.textDetails{
+    text-align:left
+}
+
+.optionsBtn{
+    border:none;
+    background:transparent;
+    cursor: pointer;
+}
+
+.optionsBtn:focus{
+    outline:none;
+}
+
+.expansionSummary{
+   text-align: left;
+}
+
+.expansionDetails{
+    display:flex;
+    flex-direction: column;
+    text-align: left;
+
+}

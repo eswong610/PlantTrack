@@ -1,0 +1,11 @@
+.formlabel{
+    displaY:flex;
+    flex-direction: column;
+    text-align:left;
+   
+}
+
+.forminput{
+    padding:2%;
+    margin:3% 0%;
+}

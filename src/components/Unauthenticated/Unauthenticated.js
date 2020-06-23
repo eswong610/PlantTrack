@@ -1,8 +1,12 @@
 import React from 'react'
 import styles from './unauthenticated.module.css'
-import {Link} from 'react-router-dom';
+import {Link, Switch, Route} from 'react-router-dom';
+import Landing from '../Landing/Landing';
+import gardenImg from '../../assets/undrawGarden.svg';
+import Login from '../Login/Login';
+import Register from '../Register/Register'
 
-function Unauthenticated() {
+function Unauth() {
     return (
         <div>
             <div className={styles.headerContainer}>
@@ -23,8 +27,17 @@ function Unauthenticated() {
                         <Link className={styles.linktext} to='/register'>Register</Link>
                     </div>
                 </div>
+                <main>
+                <img src={gardenImg} alt='gardenimg' className={styles.gardenimg}></img>
+                <Switch>
+                    <Route exact path='/login' component={Login}/>
+                    <Route exact path='/' component={Landing}/>
+                    <Route exact path='/register' component={Register}/>  
+                </Switch>
+                    
+                </main>
         </div>
     )
 }
 
-export default Unauthenticated
+export default Unauth

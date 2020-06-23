@@ -29,6 +29,11 @@
     text-decoration: none;
     color: black;
 } */
+
+.root{
+    display:flex;
+    align-content: center;
+}
 main{
   display:flex;
   margin-top:3%;
@@ -46,8 +51,10 @@ main{
     align-items: flex-end;
     margin-right: 5%;
     justify-content:center;
+    margin:10%;
 }
 .description{
     width:80%;
-    text-align: left;
+    text-align: right;
+    margin-top:10%;
 }

@@ -6,8 +6,8 @@ import Unauthenticated from '../Unauthenticated/Unauthenticated'
 
 function Landing() {
     return (
-        <div>
-            <div className={styles.bigContainer}>
+        <div className={styles.root}>
+            {/* <div className={styles.bigContainer}> */}
                 {/* <div className={styles.headerContainer}>
                     <div className={styles.logoContainer}>
                         <svg className= {styles.logo} width="290" height="256" viewBox="0 0 290 256" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -24,15 +24,15 @@ function Landing() {
                         <Link className={styles.linktext} to='/register'>Register</Link>
                     </div>
                 </div> */}
-                <Unauthenticated />
+                
                 <main>
-                    <img src={gardenImg} alt='gardenimg' className={styles.gardenimg}></img>
+                    
                     <div className={styles.maintext}>
                         <h1 className={styles.title}>Track Your Home Gardening</h1>
                         <h5 className= {styles.description}>Forget to water your plants often? Don't know what the best environment is for your vegetables? We offer a one stop solution to you, right on this app.</h5>
                     </div>
                 </main>
-            </div>
+            {/* </div> */}
 
         </div>
     )

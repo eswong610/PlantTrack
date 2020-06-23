@@ -1,0 +1,31 @@
+.root{
+    margin-top:1%;
+    width:100%;
+    max-height:100vh;
+}
+
+.newplantmodal{
+    height:50%;
+    width:50%;  
+    margin-right:auto;
+    margin-left:auto;
+    margin-top:10%;
+    padding: 2%;
+    border-radius: 3px;
+    background: rgb(245, 212, 212);
+}
+
+.newplantmodal:focus{
+    outline:none;
+}
+
+.header{
+    height:20%;
+    display:flex;
+    justify-content: space-between;
+    margin-top:0
+}
+
+.logo{
+    height:15vh;
+}

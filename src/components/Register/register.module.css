@@ -1,0 +1,45 @@
+main{
+    width:100%;
+}
+
+.registerContainer{
+    width:40%;
+    margin-left:3%;
+}
+.forminputscontainer{
+    display:flex;
+    flex-direction: column;
+    margin-left:12%;
+    
+    justify-content: center;
+    align-content: center;
+   
+    
+}
+
+.formlabel{
+    displaY:flex;
+    flex-direction: column;
+    text-align:left;
+   
+}
+
+.forminput{
+    padding:2%;
+    margin:3% 0%;
+}
+
+.locationInput{
+    display:flex;
+    justify-content: space-between;
+    align-items: stretch
+}
+
+.formlabelcity {
+    margin-right:3px;
+}
+
+.formlabelcity, .formlabelcountry{
+    flex:1
+    
+}

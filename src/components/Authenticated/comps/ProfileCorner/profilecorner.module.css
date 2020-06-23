@@ -1,0 +1,19 @@
+.root{
+    display:flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.content{
+    margin-right:5%;
+
+}
+.text{
+    margin:0;
+    text-align:left;
+}
+.ppimg{
+    width:4rem;
+    height:4rem;
+    border-radius: 50%;
+    object-fit: cover;
+}
